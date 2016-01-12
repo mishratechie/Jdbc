@@ -5,7 +5,7 @@ public class Select extends Connect{
 	public String selectStmt()
 	{
 		getConnection();
-		int n=0;
+		//int n=0;
 		String sql="select * from emp_test";
 		String s="invalid";
 		try

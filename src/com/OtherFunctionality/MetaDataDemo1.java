@@ -5,6 +5,8 @@ import java.util.*;
 
 class MetaDataDemo1
 {
+	private static String salDisplay;
+
 	public static void main(String args[]) throws SQLException
 	{
 		try
@@ -46,13 +48,11 @@ class MetaDataDemo1
 				String ename=rs.getString(2);
 				int esal=rs.getInt(3);
 				String edesg= rs.getString(4);
-				String salDisplay;
-
 				if(rs.wasNull())
 					  salDisplay = " No Pay or Null";
 				else
 					salDisplay = String.valueOf(esal);
-				System.out.println(eid+"\t"+ename+"\t"+esal+"\t"+edesg);
+				System.out.println(eid+"\t"+ename+"\t"+esal+"\t"+edesg+salDisplay);
 			}			
 	System.out.println();
 	//rs.close();

@@ -1,12 +1,10 @@
 package com.BasicFunctionality;
 
 import java.sql.*;
-import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.io.*;
+
 
 public class Connect 
 {

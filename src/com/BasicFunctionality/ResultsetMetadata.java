@@ -15,7 +15,7 @@ public class ResultsetMetadata extends Connect {
 			
 			ResultSetMetaData rsmd=rs.getMetaData();
 			int numberOfColumns = rsmd.getColumnCount();
-		    int rowCount = 1;
+		  //  int rowCount = 1;
 		    
 		    //press ctrl+7 to add or remove comment
 		    

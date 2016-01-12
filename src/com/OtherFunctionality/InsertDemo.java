@@ -12,7 +12,7 @@ class InsertDemo
 			Statement stmt= con.createStatement();
 			String sql="insert into Employee values(1004,\"kiran\",15000,\"Manager\")";
 			ResultSet rs=stmt.executeQuery(sql);
-			/*while(rs.next())
+			while(rs.next())
 			{
 				int a1=rs.getInt("eid");
 				String a2=rs.getString("ename");
@@ -24,7 +24,7 @@ class InsertDemo
 																System.out.print(" Student Age:"+ a4);
 			}
 			stmt.close();
-			con.close(); */
+			con.close(); 
 		}
 		catch (Exception e)
 		{

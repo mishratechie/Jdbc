@@ -1,6 +1,6 @@
 package com.BasicFunctionality;
 
-import java.sql.SQLException;
+
 
 public class batchTrial extends Connect {
 	
@@ -15,7 +15,7 @@ public class batchTrial extends Connect {
 			String sql1="INSERT INTO emp_test values(654324,'lane','australia' )";
 			stmt.addBatch(sql1);
 			
-			int[] count= stmt.executeBatch();
+			//int[] count= stmt.executeBatch();
 			
 			
 			//System.out.println(count);
